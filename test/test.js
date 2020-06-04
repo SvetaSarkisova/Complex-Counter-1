@@ -59,12 +59,17 @@ describe('Test Complex Counter', () => {
     });
 
     it('should display text Enter Initial Count', function () {
+
         const labelArr = $$('label');
-        const labelArr2 = labelArr[2].getText()
+
+        const labelArr2 = labelArr[2].getText();
+
         assert.equal(labelArr2 , 'Enter Initial Count:')
         
     });
 
 
 });
+
+
 
